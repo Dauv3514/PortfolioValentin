@@ -1,0 +1,355 @@
+{
+  "basics": {
+    "name": "Valentin Dauvier",
+    "label": "Développeur Front-End",
+    "image": "/valentin2.png",
+    "email": "valentindauvier@hotmail.fr",
+    "phone": "0630799847",
+    "url": "",
+    "résumé": "Développeur passionné, je veille à concevoir des interfaces intuitives et optimisées",
+    "theme": "blue",
+    "location": {
+      "address": "11 rue de Vern",
+      "postalCode": "35230",
+      "city": "Noyal Châtillon sur Seiche",
+      "countryCode": "France",
+      "region": "Bretagne"
+    },
+    "profiles": [
+      {
+        "network": "LinkedIn",
+        "username": "valentin-dauvier",
+        "url": "https://linkedin.com/in/valentin-dauvier"
+      },
+      {
+        "network": "GitHub",
+        "username": "valentin-dauvier",
+        "url": "https://github.com/Dauv3514"
+      }
+    ]
+  },
+  "work": [
+    {
+      "name": "Lenndi",
+      "position": "Développeur Full-Stack",
+      "location_type": "Remote",
+      "location": "Noyal Châtillon Sur Seiche, France",
+      "url": "https://lenndi.com/",
+      "startDate": "2023-08-01",
+      "endDate": "2024-10-31",
+      "résumé": "Co-créateur d’un site web dédié à la littérature, livres, poésies et citations (2 développeurs)",
+      "highlights": [
+        "Contributed to a major project that streamlined internal workflows, improving efficiency by 30%"
+      ],
+      "responsabilités": [
+        "J'ai conçu et développé les fonctionnalités du site en utilisant ReactJS et NodeJS, en me concentrant principalement sur le développement Front-End, qui est ma spécialité.",
+        "J'ai travaillé en étroite collaboration avec un Développeur Back-End pour intégrer les éléments orientés utilisateur à la logique côté serveur.",
+        "J'ai participé à la réflexion d'une logique de croissance du site web (SEO avec NextJS, Marketing digital, Community Management...) tout en créeant les fonctionnalités."
+      ],
+      "réalisations": [
+        "A découvrir dans la partie 'Projets'"
+      ],
+      "skills": [
+        "Next.js",
+        "ReactJS",
+        "TypeScript",
+        "NodeJS",
+        "PostgreSQL",
+        "Figma"
+      ]
+    },
+    {
+      "name": "Defants Startup",
+      "position": "Développeur Front-End",
+      "location_type": "Hybride",
+      "location": "Cesson-Sévigné, France",
+      "url": "https://www.defants.com/fr/",
+      "startDate": "2022-06-01",
+      "endDate": "2024-02-10",
+      "résumé": "Développer et maintenir un logiciel d'investigation en Cybersécurité à l'aide de VueJS, JavaScript, HTML et CSS. Collaborer avec l'équipe pour implémenter de nouvelles fonctionnalités et corriger des bugs.",
+      "highlights": [
+        "Improved website performance by optimizing code"
+      ],
+      "responsabilités": [
+        "J'ai collaboré avec des développeurs seniors pour concevoir et mettre en œuvre des fonctionnalités à l'aide d'un framework moderne (VueJS 3 - Options API)",
+        "J'ai aidé au débogage et à l'optimisation du code front-end pour garantir une expérience utilisateur fluide.",
+        "J'ai participé à la réalisation des maquettes du logiciel en collaboration avec une UX/UI designer"
+      ],
+      "réalisations": [
+        "A découvrir dans la partie 'Projets'"
+      ],
+      "skills": [
+        "VueJS",
+        "HTML",
+        "CSS",
+        "GraphQL",
+        "Figma",
+        "GitHub"
+      ]
+    },
+    {
+      "name": "Iso Plac Deco",
+      "position": "Développeur Front-End Freelance",
+      "location_type": "Remote",
+      "location": "Bruz, France",
+      "url": "https://isoplacdeco.com/",
+      "startDate": "2022-03-01",
+      "endDate": "2024-12-01",
+      "résumé": "J'ai développé un site web avec l'aide d'un Développeur Back-End pour un artisan.",
+      "responsabilités": [
+        "J'ai travaillé avec les technologies suivantes : VueJS 3 et Sass",
+        "J'ai collaboré directement avec le client pour comprendre ses besoins et les traduire en fonctionnalités techniques adaptées.",
+        "Je continue d'assurer un suivi régulier pour garantir la maintenance et l'évolution du site selon les attentes du client."
+      ],
+      "highlights": [
+        "Completed several client projects successfully"
+      ],
+      "skills": [
+        "VueJS",
+        "Sass",
+        "CSS"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "Digital Campus",
+      "url": "https://www.digital-campus.fr/",
+      "area": "Développeur Web et Web mobile",
+      "studyType": "Bachelor",
+      "startDate": "2021-06-01",
+      "endDate": "2021-10-01",
+      "score": "3.8",
+      "courses": [
+        "CS101 - Introduction to Computer Science",
+        "CS102 - Data Structures"
+      ]
+    },
+    {
+      "institution": "Chef de projet multimédia",
+      "url": "https://www.ecole-multimedia.com/",
+      "area": "Chef de projet Web (option Community Management)",
+      "studyType": "Master",
+      "startDate": "2018-09-01",
+      "endDate": "2019-09-01",
+      "score": "3.9",
+      "courses": [
+        "SE201 - Advanced Software Development",
+        "SE202 - Software Architecture and Design"
+      ]
+    }
+  ],
+  "certificates": [
+  ],
+  "skills": [
+    {
+      "name": "VueJS",
+      "level": "Intermediate",
+      "keywords": [
+        "Web Development",
+        "Frontend",
+        "JavaScript Library",
+        "UI"
+      ]
+    },
+    {
+      "name": "ReactJS",
+      "level": "Intermediate",
+      "keywords": [
+        "Web Development",
+        "Frontend",
+        "JavaScript Library",
+        "UI"
+      ]
+    },
+    {
+      "name": "JavaScript",
+      "level": "Intermediate",
+      "keywords": [
+        "Web Development",
+        "Frontend",
+        "Backend",
+        "Fullstack"
+      ]
+    },
+    {
+      "name": "TypeScript",
+      "level": "Intermediate",
+      "keywords": [
+        "Web Development",
+        "Frontend",
+        "Backend",
+        "JavaScript Superset"
+      ]
+    },
+    {
+      "name": "Figma",
+      "level": "Expert",
+      "keywords": [
+        "Design",
+        "UI"
+      ]
+    },
+    {
+      "name": "Gitlab",
+      "level": "Intermediate",
+      "keywords": [
+        "Version Control",
+        "Collaboration",
+        "Source Code"
+      ]
+    },
+    {
+      "name": "HTML",
+      "level": "Intermediate",
+      "keywords": [
+        "Web Development",
+        "Frontend"
+      ]
+    },
+    {
+      "name": "CSS",
+      "level": "Intermediate",
+      "keywords": [
+        "Web Development",
+        "Frontend",
+        "Responsive Design"
+      ]
+    },
+    {
+      "name": "Sass",
+      "level": "Intermediate",
+      "keywords": [
+        "Web Development",
+        "Frontend",
+        "CSS Framework",
+        "Responsive Design"
+      ]
+    },
+    {
+      "name": "NodeJS",
+      "level": "Intermediate",
+      "keywords": [
+        "Web Development",
+        "Backend",
+        "JavaScript",
+        "Server"
+      ]
+    },
+    {
+      "name": "MySQL",
+      "level": "Intermediate",
+      "keywords": [
+        "Databases",
+        "SQL",
+        "Data Storage",
+        "Backend"
+      ]
+    },
+    {
+      "name": "Git",
+      "level": "Intermediate",
+      "keywords": [
+        "Version Control",
+        "Collaboration",
+        "Source Code"
+      ]
+    },
+    {
+      "name": "GitHub",
+      "level": "Intermediate",
+      "keywords": [
+        "Version Control",
+        "Collaboration",
+        "Source Code",
+        "Git"
+      ]
+    },
+    {
+      "name": "PostgreSQL",
+      "level": "Intermediate",
+      "keywords": [
+        "Databases",
+        "PostgreSQL",
+        "Data Storage",
+        "Backend"
+      ]
+    },
+    {
+      "name": "Next.js",
+      "level": "Beginner",
+      "keywords": [
+        "Web Development",
+        "Frontend",
+        "React Framework",
+        "SSR",
+        "Static Generation"
+      ]
+    },
+    {
+      "name": "GraphQL",
+      "level": "Intermediate",
+      "keywords": [
+        "Web Development",
+        "Frontend",
+        "JavaScript Library",
+        "UI"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "English",
+      "fluency": "Native speaker"
+    },
+    {
+      "language": "Spanish",
+      "fluency": "Intermediate"
+    }
+  ],
+  "interests": [
+    {
+      "name": "Technology",
+      "keywords": [
+        "AI",
+        "Blockchain"
+      ]
+    }
+  ],
+  "references": [
+    {
+      "name": "Jane Smith",
+      "reference": "Reference…"
+    }
+  ],
+  "projects": [
+    {
+      "name": "Lenndi",
+      "isActive": true,
+      "description": "Screens des principales fonctionnalités du site sur lesquels j'ai travaillé",
+      "highlights": [
+        "Réalisé après mon départ de chez Defants"
+      ],
+      "url": "https://drive.google.com/drive/folders/161YH-8nEx-D0MR8LtbGytQ0cEXbz9obG"
+    },
+    {
+      "name": "Defants",
+      "isActive": true,
+      "description": "Screens des principales fonctionnalités du logiciel sur lesquels j'ai travaillé",
+      "highlights": [
+        "Réalisation des maquettes et intégration sur le logiciel"
+      ],
+      "url": "https://drive.google.com/drive/folders/1qpe9tTtOsnJkBBMOHuvEjNa3mrnJ9RyQ"
+    },
+    {
+      "name": "Portfolio personnel",
+      "isActive": false,
+      "description": "Présente mes projets et mes compétences",
+      "highlights": [
+        "Portfolio réalisé avant Defants avec différentes technologies"
+      ],
+      "url": "https://johndoe.dev",
+      "github": "https://github.com"
+    }
+  ]
+}
