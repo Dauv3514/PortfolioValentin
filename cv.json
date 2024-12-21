@@ -6,7 +6,7 @@
     "email": "valentindauvier@hotmail.fr",
     "phone": "0630799847",
     "url": "",
-    "résumé": "Développeur passionné, je veille à concevoir des interfaces intuitives et optimisées",
+    "résumé": "Développeur passionné, je veille à concevoir des interfaces intuitives et optimisées 🚀",
     "theme": "blue",
     "location": {
       "address": "11 rue de Vern",
@@ -47,7 +47,9 @@
         "J'ai participé à la réflexion d'une logique de croissance du site web (SEO avec NextJS, Marketing digital, Community Management...) tout en créeant les fonctionnalités."
       ],
       "réalisations": [
-        "A découvrir dans la partie 'Projets'"
+        {
+          "url2": "https://drive.google.com/drive/folders/161YH-8nEx-D0MR8LtbGytQ0cEXbz9obG"
+        }
       ],
       "skills": [
         "Next.js",
@@ -76,7 +78,9 @@
         "J'ai participé à la réalisation des maquettes du logiciel en collaboration avec une UX/UI designer"
       ],
       "réalisations": [
-        "A découvrir dans la partie 'Projets'"
+        {
+          "url2": "https://drive.google.com/drive/folders/1qpe9tTtOsnJkBBMOHuvEjNa3mrnJ9RyQ"
+        }
       ],
       "skills": [
         "VueJS",
@@ -104,6 +108,11 @@
       "highlights": [
         "Completed several client projects successfully"
       ],
+      "réalisations": [
+        {
+          "url2": "https://drive.google.com/drive/folders/1jBdlRSTzaMcPmOb7X3nPnt6ZNPvV2iqU?usp=drive_link"
+        }
+      ],
       "skills": [
         "VueJS",
         "Sass",
@@ -128,7 +137,7 @@
     {
       "institution": "Chef de projet multimédia",
       "url": "https://www.ecole-multimedia.com/",
-      "area": "Chef de projet Web (option Community Management)",
+      "area": "Chef de projet Web (option Community Manager)",
       "studyType": "Master",
       "startDate": "2018-09-01",
       "endDate": "2019-09-01",
@@ -324,32 +333,23 @@
   ],
   "projects": [
     {
-      "name": "Lenndi",
-      "isActive": true,
-      "description": "Screens des principales fonctionnalités du site sur lesquels j'ai travaillé",
-      "highlights": [
-        "Réalisé après mon départ de chez Defants"
-      ],
-      "url": "https://drive.google.com/drive/folders/161YH-8nEx-D0MR8LtbGytQ0cEXbz9obG"
-    },
-    {
-      "name": "Defants",
-      "isActive": true,
-      "description": "Screens des principales fonctionnalités du logiciel sur lesquels j'ai travaillé",
-      "highlights": [
-        "Réalisation des maquettes et intégration sur le logiciel"
-      ],
-      "url": "https://drive.google.com/drive/folders/1qpe9tTtOsnJkBBMOHuvEjNa3mrnJ9RyQ"
-    },
-    {
       "name": "Portfolio personnel",
       "isActive": false,
-      "description": "Présente mes projets et mes compétences",
+      "description": "Présente mes projets et mes compétences en 2022",
       "highlights": [
-        "Portfolio réalisé avant Defants avec différentes technologies"
+        "Réalisé en 2022 avant de travailler pour Defants. Fait avec différentes technologies."
       ],
       "url": "https://johndoe.dev",
       "github": "https://github.com"
+    },
+    {
+      "name": "VueJS Jobs",
+      "isActive": true,
+      "description": "Site d'offres d'emplois pour les Développeurs VueJS",
+      "highlights": [
+        "Réalisé en 2024 avec l'API composition de VueJS3, Tailwind et Json Server."
+      ],
+      "url": "https://drive.google.com/drive/folders/1zc6OpNF2ge6W06lqDPcWV1aqTbDL2jE2"
     }
   ]
 }

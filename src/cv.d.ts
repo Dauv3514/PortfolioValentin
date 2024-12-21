@@ -43,10 +43,12 @@ interface Work {
   name: string;
   position: string;
   url: string;
+  url2?: string;
   startDate: DateStr;
   endDate: DateStr | null;
   summary: string;
   highlights: Highlight;
+  réalisations?: string | Array<{ url2: string }>;
 }
 
 type DateStr = `${string}-${string}-${string}`;
