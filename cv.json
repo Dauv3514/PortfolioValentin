@@ -334,7 +334,7 @@
   "projects": [
     {
       "name": "Portfolio personnel",
-      "isActive": false,
+      "isActive": true,
       "description": "Présente mes projets et mes compétences en 2022",
       "highlights": [
         "Réalisé en 2022 avant de travailler pour Defants. Fait avec différentes technologies."
