@@ -343,6 +343,16 @@
       "github": "https://github.com/Dauv3514/MonPortfolio"
     },
     {
+      "name": "Réseau social de Valentin",
+      "isActive": true,
+      "description": "J'ai réalisé mon propre réseau social",
+      "highlights": [
+        "Réalisé en 2024 avec ReactJS, NodeJS, Express et MySQL"
+      ],
+      "url": "https://drive.google.com/drive/folders/1ZGmS5IAaz8272b9QVz8iohQMQ7JDQEUo",
+      "github": "https://github.com/Dauv3514/R-seausocial"
+    },
+    {
       "name": "VueJS Jobs",
       "isActive": true,
       "description": "Site d'offres d'emploi pour les Développeurs VueJS",
