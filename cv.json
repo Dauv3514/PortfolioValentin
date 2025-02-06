@@ -75,6 +75,7 @@
       ],
       "responsabilités": [
         "J'ai collaboré avec des développeurs seniors pour concevoir et mettre en œuvre des fonctionnalités à l'aide d'un framework moderne (VueJS 3 - Options API)",
+        "J'ai utilisé un outil de test automatisé (Cypress) pour effectuer des tests réguliers sur la partie Front-End du logiciel, notamment sur les composants. Les tests End-to-End ont permis de simuler des interactions réelles (clics, saisie de texte, navigation etc.)",
         "J'ai aidé au débogage et à l'optimisation du code front-end pour garantir une expérience utilisateur fluide.",
         "J'ai participé à la réalisation des maquettes du logiciel en collaboration avec une UX/UI designer"
       ],
