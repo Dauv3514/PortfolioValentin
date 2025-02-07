@@ -6,7 +6,7 @@
     "email": "valentindauvier@hotmail.fr",
     "phone": "0630799847",
     "url": "",
-    "résumé": "Développeur passionné, je veille à concevoir des interfaces intuitives et optimisées 🚀",
+    "résumé": "Développeur passionné, je conçois des interfaces intuitives et optimisées, tout en garantissant une architecture back-end performante et sécurisée. 🚀",
     "theme": "blue",
     "location": {
       "address": "11 rue de Vern",
@@ -63,7 +63,7 @@
     },
     {
       "name": "Defants Startup",
-      "position": "Développeur Front-End",
+      "position": "Développeur Full-Stack",
       "location_type": "Hybride",
       "location": "Cesson-Sévigné, France",
       "url": "https://www.defants.com/fr/",
