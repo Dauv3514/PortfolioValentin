@@ -1,7 +1,7 @@
 {
   "basics": {
     "name": "Valentin Dauvier",
-    "label": "Développeur Front-End",
+    "label": "Développeur Full-Stack",
     "image": "/PortfolioValentin/valentin2.png",
     "email": "valentindauvier@hotmail.fr",
     "phone": "0630799847",
@@ -42,7 +42,7 @@
         "Contributed to a major project that streamlined internal workflows, improving efficiency by 30%"
       ],
       "responsabilités": [
-        "J'ai conçu et développé les fonctionnalités du site en utilisant ReactJS et NodeJS, en me concentrant principalement sur le développement Front-End, qui est ma spécialité.",
+        "J'ai conçu et développé les fonctionnalités du site en utilisant ReactJS et NodeJS, aussi bien côté Front-End que Back-End",
         "J'ai travaillé en étroite collaboration avec un Développeur Back-End pour intégrer les éléments orientés utilisateur à la logique côté serveur.",
         "J'ai participé à la réflexion d'une logique de croissance du site web (SEO avec NextJS, Marketing digital, Community Management...) tout en créeant les fonctionnalités."
       ],
@@ -63,7 +63,7 @@
     },
     {
       "name": "Defants Startup",
-      "position": "Développeur Full-Stack",
+      "position": "Développeur Front-End",
       "location_type": "Hybride",
       "location": "Cesson-Sévigné, France",
       "url": "https://www.defants.com/fr/",
@@ -369,7 +369,7 @@
       "isActive": true,
       "description": "J'ai réalisé mon propre réseau social",
       "highlights": [
-        "Réalisé en 2024 avec ReactJS, NodeJS, Express et MySQL"
+        "Réalisé en 2025 avec ReactJS, NodeJS, Express et MySQL. Développement de l'API, du front et du back"
       ],
       "url": "https://drive.google.com/drive/folders/1ZGmS5IAaz8272b9QVz8iohQMQ7JDQEUo",
       "github": "https://github.com/Dauv3514/R-seausocial"
@@ -379,10 +379,20 @@
       "isActive": true,
       "description": "Site d'offres d'emploi pour les Développeurs VueJS",
       "highlights": [
-        "Réalisé en 2024 avec l'API composition de VueJS3, Tailwind et JSON Server."
+        "Réalisé en 2024 avec l'API composition de VueJS3, Tailwind et JSON Server. Développement du front."
       ],
       "url": "https://drive.google.com/drive/folders/1zc6OpNF2ge6W06lqDPcWV1aqTbDL2jE2",
       "github": "https://github.com/Dauv3514/SiteOffreEmploisVuejs"
+    },
+    {
+      "name": "Réservation de logements",
+      "isActive": true,
+      "description": "Site de réservations de logements",
+      "highlights": [
+        "Réalisé en 2025 avec ReactJS, NodeJS, Express et PostgreSQL. Développement de l'API, du front et du back"
+      ],
+      "url": "https://drive.google.com/drive/folders/1ev--HbA-dBwBtppA9JWqqo0FBwX5xEpJ",
+      "github": "https://github.com/Dauv3514/SiteDeReservationHotel"
     }
   ]
 }
