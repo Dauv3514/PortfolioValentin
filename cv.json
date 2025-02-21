@@ -326,6 +326,14 @@
         "JavaScript Library",
         "UI"
       ]
+    },
+    {
+      "name": "Docker",
+      "level": "Expert",
+      "keywords": [
+        "Design",
+        "UI"
+      ]
     }
   ],
   "languages": [
@@ -393,6 +401,16 @@
       ],
       "url": "https://drive.google.com/drive/folders/1ev--HbA-dBwBtppA9JWqqo0FBwX5xEpJ",
       "github": "https://github.com/Dauv3514/SiteDeReservationHotel"
+    },
+    {
+      "name": "Quizz Football",
+      "isActive": true,
+      "description": "Quizz sur le football",
+      "highlights": [
+        "Réalisé en 2025 avec l'API composition de VueJS3, NodeJS, Express, PostgreSQL et Puppeteer pour le scrapping. Développement de l'API, du front et du back."
+      ],
+      "url": "https://drive.google.com/drive/folders/1q7mnRs9cfcH5vcQ5TnLQ1gzpttX5kqmn",
+      "github": "https://github.com/Dauv3514/QuizzFootball"
     }
   ]
 }
