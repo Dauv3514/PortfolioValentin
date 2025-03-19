@@ -54,7 +54,7 @@ const SKILLS_ICONS: Record<string, any> = {
 ---
 <Section className={Astro.props.className} title="Expériences">
   <ul class="flex flex-col">
-    {work.map(({ name, startDate, endDate, position, résumé, responsabilités, réalisations, url, skills, location, location_type }) => {
+    {work.map(({ name, startDate, endDate, position, résumé, responsabilités, réalisations, url, skills, location, location_type, github, github2 }) => {
       const startYear = new Date(startDate).getFullYear()
       const endYear = endDate != null ? new Date(endDate).getFullYear() : "Present"
 
@@ -82,6 +82,16 @@ const SKILLS_ICONS: Record<string, any> = {
                     </span>
                   }
                   </span>
+                {github && (
+                  <a href={github} target="_blank" rel="noopener" class="ml-auto inline-flex items-center text-skin-hue hover:opacity-75 transition-opacity duration-100 ml-3">
+                    <GitHub className="w-5 h-5" />
+                  </a>
+                 )}
+                {github2 && (
+                  <a href={github2} target="_blank" rel="noopener" class="ml-auto inline-flex items-center text-skin-hue hover:opacity-75 transition-opacity duration-100 ml-3">
+                    <GitHub className="w-5 h-5" />
+                  </a>
+                 )}
                 </div>
               </h3>
               {(location || location_type) && (
