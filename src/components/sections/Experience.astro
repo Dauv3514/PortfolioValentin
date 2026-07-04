@@ -11,6 +11,7 @@ import NodeJS from "@/icons/node.astro";
 import MySQL from "@/icons/sql.astro"
 import Git from "@/icons/git.astro"
 import GitHub from "@/icons/GitHub.astro"
+import Gitlab from "@/icons/Gitlab.astro";
 import Tailwind from "@/icons/tailwind.astro"
 import Next from "@/icons/next.astro"
 import Swift from "@/icons/swift.astro"
@@ -25,6 +26,9 @@ import VueJS from "@/icons/vue.astro";
 import Sass from "@/icons/sass.astro";
 import ApiRest from "@/icons/apirest.astro";
 import Docker from "@/icons/docker.astro";
+import TanStackQuery from "@/icons/tanstack.astro";
+import MongoDB from "@/icons/mongodb.astro";
+import NestJS from "@/icons/nest.astro";
 
 const SKILLS_ICONS: Record<string, any> = {
   HTML,
@@ -36,6 +40,8 @@ const SKILLS_ICONS: Record<string, any> = {
   MySQL,
   Git,
   GitHub,
+  Gitlab,
+  GitLab: Gitlab,
   Next,
   Tailwind,
   Swift,
@@ -49,12 +55,23 @@ const SKILLS_ICONS: Record<string, any> = {
   Sass,
   Symfony,
   Docker,
-  ApiRest
+  ApiRest,
+  TanStackQuery,
+  MongoDB,
+  NestJS
+}
+
+const linkifyText = (text: string) => {
+  const urlRegex = /(https?:\/\/[^\s]+)/g;
+  return text.split(urlRegex).filter(Boolean).map((part) => ({
+    text: part,
+    isUrl: /^https?:\/\//.test(part)
+  }));
 }
 ---
 <Section className={Astro.props.className} title="Expériences">
   <ul class="flex flex-col">
-    {work.map(({ name, startDate, endDate, position, résumé, responsabilités, réalisations, url, skills, location, location_type, github, github2 }) => {
+    {work.map(({ name, startDate, endDate, position, résumé, responsabilités, réalisations, réalisationsNote, url, skills, location, location_type, github, github2 }) => {
       const startYear = new Date(startDate).getFullYear()
       const endYear = endDate != null ? new Date(endDate).getFullYear() : "Present"
 
@@ -122,7 +139,17 @@ const SKILLS_ICONS: Record<string, any> = {
                     <h4>Responsabilités:</h4>
                     <ul class="text-skin-muted [&>li]:ml-4 flex list-disc flex-col gap-2">
                       {responsabilités.map(responsabilités => (
-                        <li>{responsabilités}</li>
+                        <li>
+                          {linkifyText(responsabilités).map(({ text, isUrl }) => (
+                            isUrl ? (
+                              <a class="text-skin-hue underline underline-offset-2" href={text} target="_blank" rel="noopener noreferrer">
+                                {text}
+                              </a>
+                            ) : (
+                              text
+                            )
+                          ))}
+                        </li>
                       ))}
                     </ul>
                   </div>
@@ -130,16 +157,19 @@ const SKILLS_ICONS: Record<string, any> = {
 
                 {réalisations && (
                   <div class="flex flex-col gap-1">
-                    <h4>Réalisations:</h4>
+                    <h4>
+                      Réalisations:
+                      {réalisationsNote && <span class="text-skin-muted"> {réalisationsNote}</span>}
+                    </h4>
                     <ul class="text-skin-muted [&>li]:ml-4 flex list-disc flex-col gap-2">
                       {réalisations.map((réalisation) => (
                         <li>
                           {typeof réalisation === "string" ? (
-                            <a href={réalisation} target="_blank" rel="noopener noreferrer">
+                            <a class="text-skin-hue underline underline-offset-2" href={réalisation} target="_blank" rel="noopener noreferrer">
                               {réalisation}
                             </a>
                           ) : (
-                            <a href={réalisation.url2} target="_blank" rel="noopener noreferrer">
+                            <a class="text-skin-hue underline underline-offset-2" href={réalisation.url2} target="_blank" rel="noopener noreferrer">
                               {réalisation.url2}
                             </a>
                           )}
@@ -156,9 +186,9 @@ const SKILLS_ICONS: Record<string, any> = {
                 </button>
 
 
-                <ul class="flex print:hidden flex-wrap gap-2" aria-label="Technologies used">
+                <ul class="flex print:hidden flex-wrap gap-2 [&>li>svg]:size-4 [&>li>svg]:shrink-0" aria-label="Technologies used">
                   {skills && skills.map(skill => {
-                    const iconName = skill === "Next.js" ? "Next" : skill
+                    const iconName = skill === "NextJS" ? "Next" : skill === "TanStack Query" ? "TanStackQuery" : skill
                     const Icon = SKILLS_ICONS[iconName]
                     return (
                       <li class="bg-skin-button-accent/20 border-skin-hue/20 text-skin-hue print:p-0 print:bg-transparent print:text-zinc-800 flex gap-1 items-center border-solid print:border-none border rounded-md px-2 py-0.5 text-xs">

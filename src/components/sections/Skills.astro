@@ -25,6 +25,10 @@ import ApiRest from "@/icons/apirest.astro";
 import VueJS from "@/icons/vue.astro";
 import Sass from "@/icons/sass.astro";
 import Docker from "@/icons/docker.astro";
+import MongoDB from "@/icons/mongodb.astro";
+import NestJS from "@/icons/nest.astro";
+import TypeORM from "@/icons/typeorm.astro";
+import TanStackQuery from "@/icons/tanstack.astro";
 
 const SKILLS_ICONS: Record<string, any> = {
 	HTML,
@@ -50,7 +54,11 @@ const SKILLS_ICONS: Record<string, any> = {
 	Sass,
 	Symfony,
 	ApiRest,
-	Docker
+	Docker,
+	MongoDB,
+	NestJS,
+	TypeORM,
+	TanStackQuery
 };
 ---
 
@@ -58,7 +66,7 @@ const SKILLS_ICONS: Record<string, any> = {
 	<ul class="[&>li>svg]:text-skin-hue inline-flex flex-wrap gap-6 [&>li>svg]:size-5 [&>li]:text-sm">
 		{
 			skills.map(({ name }) => {
-				const iconName = name === "Next.js" ? "Next" : name;
+				const iconName = name === "NextJS" ? "Next" : name === "TanStack Query" ? "TanStackQuery" : name;
 				const Icon = SKILLS_ICONS[iconName];
 
 				return (
