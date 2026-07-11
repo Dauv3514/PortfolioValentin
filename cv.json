@@ -42,7 +42,7 @@
       "responsabilités": [
         "J'ai développé de nouvelles fonctionnalités et intégré de nouvelles pages dans le cadre de la refonte de la plateforme CRM dédiée aux organisateurs d’événements (audience, contacts, statistiques, sales...). Pour cette refonte, j'ai utilisé ApexCharts, MUI, la bibliothèque interne Nacre de Weezevent et TanStack Query pour les appels à l'API.",
         "J'ai amélioré la plateforme en continu et corrigé des bugs critiques remontés par plus de 50 clients.",
-        "J'ai géré seul la refonte du site internet business.gigz.fr avec Next.js et Prismic.",
+        "J'ai géré seul la refonte du site internet https://business.gigz.fr/fr avec Next.js et Prismic.",
         "J'ai utilisé l'IA dans mon workflow de développement :\n• Appui sur Codex et Claude Code pour accélérer le développement, le débogage et la compréhension du code existant.\n• Utilisation de l'IA pour le refactoring, la modernisation du code et l'amélioration de la maintenabilité.\n• Double vérification des Pull Requests avec l'IA, tout en conservant une validation manuelle du code.\n• Génération assistée des résumés de Pull Requests afin de documenter clairement les changements et les étapes de test."
       ],
       "réalisations": [
