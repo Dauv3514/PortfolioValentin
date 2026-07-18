@@ -83,8 +83,10 @@
       "responsabilités": [
         "J'ai conçu et développé les fonctionnalités du site en utilisant ReactJS et NodeJS, aussi bien côté Front-end que Back-end",
         "J'ai travaillé en étroite collaboration avec un Développeur Back-end pour intégrer les éléments orientés utilisateur à la logique côté serveur.",
-        "J'ai optimisé le référencement (SEO) grâce au rendu côté serveur (SSR) avec Next.js, aux métadonnées dynamiques, aux balises Open Graph, aux URL canoniques et aux données structurées Schema.org.",
-        "J'ai participé à la réflexion d'une logique de croissance du site web (SEO avec NextJS, Marketing digital, Community Management...) tout en créeant les fonctionnalités."
+        "J'ai amélioré le référencement (SEO) grâce au rendu côté serveur (SSR) avec Next.js, aux métadonnées dynamiques, aux balises Open Graph, aux URL canoniques et aux données structurées Schema.org.",
+        "J'ai optimisé les performances du Front-end sous Next.js en mettant en place le lazy loading de plus de 60 composants et modales avec next/dynamic, réduisant le temps de chargement initial des pages.",
+        "J'ai optimisé les performances du Back-end en ajoutant des index PostgreSQL sur les requêtes les plus sollicitées, réduisant les temps de réponse de l'API.",
+        "J'ai participé à la réflexion d'une logique de croissance du site web (SEO avec NextJS, Marketing Digital, Community Management...) tout en créeant les fonctionnalités."
       ],
       "réalisations": [
         {
